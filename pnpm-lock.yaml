@@ -8,12 +8,6 @@ importers:
 
   .:
     devDependencies:
-      '@flint.fyi/plugin-browser':
-        specifier: ^0.1.0
-        version: 0.1.0
-      '@flint.fyi/ts':
-        specifier: ^0.14.6
-        version: 0.14.6
       flint:
         specifier: ^0.14.0
         version: 0.14.0
@@ -42,10 +36,6 @@ packages:
 
   '@flint.fyi/md@0.14.1':
     resolution: {integrity: sha512-NxbCyjYMU8HYH32cEfca132aoWn1bLJfY3m/I+/0OZpLdYCTWWDMieMk4hKUuKkXJ93YxWDsAoVqhflualDykg==}
-    engines: {node: '>=24.0.0'}
-
-  '@flint.fyi/plugin-browser@0.1.0':
-    resolution: {integrity: sha512-p24cpGuauCMV+VW3cXnL4GDNFFKz7GkdqWbzyrxxHg6t/Jh1LHPeQnDVoThlQ5QiyYfkBbN9HVm9GbemTt8DKw==}
     engines: {node: '>=24.0.0'}
 
   '@flint.fyi/rule-tester@0.14.3':
@@ -557,15 +547,6 @@ snapshots:
       unist-util-visit: 5.0.0
       vfile: 6.0.3
       vfile-location: 5.0.3
-    transitivePeerDependencies:
-      - supports-color
-
-  '@flint.fyi/plugin-browser@0.1.0':
-    dependencies:
-      '@flint.fyi/core': 0.16.0
-      '@flint.fyi/rule-tester': 0.14.3
-      '@flint.fyi/ts': 0.14.6
-      '@flint.fyi/utils': 0.13.2
     transitivePeerDependencies:
       - supports-color
 
