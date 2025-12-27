@@ -4,8 +4,6 @@
   "private": true,
   "packageManager": "pnpm@10.26.0",
   "devDependencies": {
-    "@flint.fyi/plugin-browser": "^0.1.0",
-    "@flint.fyi/ts": "^0.14.6",
     "flint": "^0.14.0"
   }
 }
